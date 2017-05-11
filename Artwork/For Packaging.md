@@ -27,13 +27,13 @@ cek tealinuxos.plymouth
 pastikan image dir sama script file mengarah ke folder & file yang sesuai
 
 file konfigurasi:
-```[Plymouth Theme]
+```\[Plymouth Theme\]
 Name=tealinuxos
 Description=tealinuxos plymouth 
 ModuleName=script
 ```
 
-```[script]
+```\[script\]
 ImageDir=/lib/plymouth/themes/tealinuxos
 ScriptFile=/lib/plymouth/themes/tealinuxos/tealinuxos.script
 ```
